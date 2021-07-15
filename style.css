@@ -1,0 +1,326 @@
+body,p,span{
+    font-family: sans-serif;
+}
+h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Rubik', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+body{
+    /* height: 5000px; */
+}
+
+/* this is header up part */
+.header-part {
+    background-color: #FFC800;
+    line-height: 26px;
+    padding-top: 12px;
+    position: sticky;
+}
+.header-up-left{
+    font-size: 15px;
+}
+.header-up-left span{
+    
+    color: black;
+    margin-right: 15px;
+}
+.header-up-left p{
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.header-up-right ul li{
+    display: inline-block;
+    
+}
+.header-up-right ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+    
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/* header-down-part */
+.header-down-part {
+    padding: 24px 0;
+    background-color: #fff;
+    
+}
+.header-down-part img {
+    width: 330px;
+    height: auto;
+}
+.header-down-part .header-up-right {
+    padding-top: 20px;
+}
+/* banner part */
+
+.banner-part{
+    background: url(img/banner.jpeg) no-repeat center center;
+    background-size: cover;
+   
+}
+.slider-content-wrap{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+.banner-img{
+    /* position: relative; */
+}
+.banner-part-content{
+    
+    color: white;
+    margin: auto;
+    
+    
+
+}
+.banner-part-content {
+    /* margin-left: 286px; */
+    margin-left: 0;
+}
+.banner-part-content h3 {
+    font-size: 33px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.banner-part-content h2 {
+    
+    max-width: 430px;
+    font-size: 94px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+body .btn-primary{
+    background: white;
+    border-color: white;
+    color: #111;
+    border-radius: 0%;
+    padding: 13px 25px;
+    font-weight: 500;
+    font-size: 17px;
+    
+}
+body .btn-primary:hover{
+    background: white;
+    border-color: white;
+    color: #111;
+}
+
+/* aftert-banner-part */
+.after-banner-part{
+    padding: 50px 0;
+}
+
+.trademark-part img {
+    width: 40px;
+    height: auto;
+   
+}
+
+.trademark-part span{
+    color: #305c77;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+.right-part {
+    padding: 78px 31px;
+}
+.right-part h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+}
+.right-part h4{
+    font-size: 19px;
+    font-weight: 500;
+    font-style: normal;
+    color: skyblue;
+    margin-bottom: 40px;
+}
+.right-part p{
+    font-size: 18px;
+    text-transform: none;
+    color: #c1d3ff;
+    margin-bottom: 20px;
+}
+.right-part span h4{
+    margin-bottom:40px ;
+    font-weight: 700;
+}
+.right-part a {
+    margin-bottom: -26px;
+}
+.bgcdd{
+    background-color: #305C77;
+    margin-left: 0;
+}
+.bgcdd img {
+    margin-left: -12px;
+    
+}
+
+/* our team part */
+.our-team-part{
+   
+    background: url(https://coronapa.com/template/v1/images/bg_c.png) no-repeat left center;
+    
+    position: relative;
+    background-color: rgb(207, 237, 255);
+    z-index: -1;
+    
+    
+}
+.logo-left-image{
+    margin-right: 30px;
+    
+}
+
+.our-team-part::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+}
+.team-members{
+    background-color: #fff;
+    padding: 40px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+.team-members img {
+    width: 102px;
+    height: auto;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.team-setting{
+    margin: 30px;
+    
+}
+
+.client-review-part{
+    background-color: #305C77;
+    padding: 100px 0;
+
+}
+.left-text{
+    /* margin-right: 20px; */
+}
+.left-text h2 {
+    color: white;
+    font-size: 46px;
+    margin-bottom: 20px;
+}
+.left-text p{
+    font-size: 19px;
+    color: #d5d5d5;
+    font-weight: 300;
+    
+    text-align: left;
+}
+.right-site-image img {
+    width: 340px;
+    height: auto;
+    position: absolute;
+    margin-left: 70px;
+}
+.law-practice-areas{
+    padding: 70px 0;
+}
+.fotter-section{
+    margin-top: 100px;
+    padding: 100px 0;
+    background-color: #111;
+    color: white;
+}
+
+.fotter-image-part{
+    position: relative;
+    
+}
+.logo-part-social ul {
+    position: absolute;
+    top: 203px;
+    left: 50px;
+}
+.logo-part-social ul li {
+    display: inline-block;
+    margin-right: 10px;
+    
+    
+}
+.logo-part-social ul li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 19px;
+    color: white;
+}
+.logo-part-social ul li a{
+    color: white;
+}
+.logo-image p {
+    margin: 25px;
+    margin-left: 0;
+}
+.logo-part-social span{
+    font-weight: 500;
+}
+
+.middle-two-part ul{
+    padding-left: 0;
+}
+.middle-two-part ul span{
+    font-size: 25px;
+    margin-top: 25px;
+    font-weight: 500;
+    position: relative;
+    
+}
+.middle-two-part ul span::after {
+    content: "";
+    position: absolute;
+    top: 42px;
+    left: 0;
+    width: 284px;
+    height: 1px;
+    background-color: #ddd;
+    
+}
+.middle-two-part ul li{
+    list-style: none;
+    margin-top: 25px;
+    
+}
+.middle-two-part ul li a{
+    font-size: 17x;
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+}
+.middle-two-part ul li a:hover{
+    letter-spacing: 1.5px;
+    color: tomato;
+}
+
+/* address part */
+.address-part{
+    margin: 30px;
+    margin-left: 0;
+}
+.address-part span{
+    display: inline-block;
+    width: 50px;
+    font-size: 25px;
+}
